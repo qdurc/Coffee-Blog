@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Blog</title>
+    <link rel="stylesheet" href="/css/Normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin"><span class="logo__bold">Coffee</span>Blog</h1>
+                </a>
+                <nav class="nav">
+                    <a class="nav__link" href="index.html">Blog</a>
+                    <a class="nav__link" href="us.html">Us</a>
+                    <a class="nav__link" href="courses.html">Courses</a>
+                    <a class="nav__link" href="contact.html">Contact</a>
+                </nav> 
+            </div>
+        </div>
+        <div class="header__text">
+            <h2 class="no-margin">Coffee Blog with tips and courses</h2>
+            <p class="no-margin">Learn with the experts, best recipe and tips</p>
+        </div>
+    </header> 
+
+    <main class="container">
+        <h3 class="center-text">Contact</h3>
+        <div class="contact-bg"></div>
+
+        <form class="form">
+            <div class="field">
+                <label class="label__field" for="name">Name:</label>
+                <input 
+                    class="input__field"
+                    type="text" 
+                    placeholder="Your name" 
+                    id="name">
+            </div>
+            <div class="field">
+                <label class="label__field" for="mail">Mail:</label>
+                <input 
+                    class="input__field"
+                    type="email" 
+                    placeholder="@mail.com" 
+                    id="mail">
+            </div>
+            <div class="field">
+                <label class="label__field" for="message">Message:</label>
+                <textarea 
+                    class="input__field input__field--textarea"
+                    id="message">
+                </textarea>
+            </div>
+
+            <div class="field">
+                <input 
+                    type="submit" 
+                    value="Send" 
+                    class="button button--primary">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container"> 
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin"><span class="logo__bold">Coffee</span>Blog</h1>
+                </a>
+                <p class="footer--info">Eduardo Colon Colon3763@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
